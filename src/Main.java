@@ -1,4 +1,5 @@
 import GeometricObjects.Circle;
+import GeometricObjects.Cuboid;
 import GeometricObjects.Cylinder;
 import GeometricObjects.Rectangle;
 
@@ -29,6 +30,20 @@ public class Main {
         System.out.println("rectangle.length= " + rectangle.getLength());
 
         System.out.println("rectangle.area= " + rectangle.getArea());
+
+        System.out.println("cuboid-----------------------------");
+
+        Cuboid cuboid = new Cuboid(5,10,5);
+
+        System.out.println("cuboid.width= " + cuboid.getWidth());
+
+        System.out.println("cuboid.length= " + cuboid.getLength());
+
+        System.out.println("cuboid.area= " + cuboid.getArea());
+
+        System.out.println("cuboid.height= " + cuboid.getHeight());
+
+        System.out.println("cuboid.volume= " + cuboid.getVolume());
 
     }
 }
