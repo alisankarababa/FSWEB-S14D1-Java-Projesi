@@ -1,5 +1,6 @@
 import GeometricObjects.Circle;
 import GeometricObjects.Cylinder;
+import GeometricObjects.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +20,15 @@ public class Main {
         System.out.println("cylinder.area= " + cylinder.getArea());
 
         System.out.println("cylinder.volume= " + cylinder.getVolume());
+
+        System.out.println("rectangle----------------------------------------------------");
+        Rectangle rectangle = new Rectangle(5, 10);
+
+        System.out.println("rectangle.width= " + rectangle.getWidth());
+
+        System.out.println("rectangle.length= " + rectangle.getLength());
+
+        System.out.println("rectangle.area= " + rectangle.getArea());
+
     }
 }
